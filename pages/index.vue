@@ -1,14 +1,14 @@
 <template>
-  <div class="h-full w-full">
+  <div class="overflow-auto">
     <hero />
+    <projects />
+    <experience />
+    <about />
+    <faq />
+    <bottom />
   </div>
 </template>
 
 <script>
-import Hero from "../components/Hero";
-export default {
-  components: {
-    Hero,
-  },
-};
+export default {};
 </script>
